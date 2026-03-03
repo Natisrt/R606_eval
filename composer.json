@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "phpstan/phpstan": "^2.1"
+    },
+    "scripts": {
+        "lint": "vendor/bin/phpstan analyse index.php migrate.php tests -l 5"
+    }
+}
